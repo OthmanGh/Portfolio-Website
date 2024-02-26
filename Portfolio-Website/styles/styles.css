@@ -15,3 +15,20 @@ img {
 .logo {
   width: 20px;
 }
+
+table {
+  outline: 1px solid #333;
+  border-collapse: collapse;
+  margin: 40px auto;
+  width: 80%;
+}
+
+td {
+  padding: 15px;
+  margin: 300px;
+  border: none;
+}
+
+.web-technology {
+  width: 80px;
+}
