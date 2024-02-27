@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="./styles/common/colors.css" />
     <link rel="stylesheet" href="./styles/common/utilities.css" />
     <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/hero-section.css" />
     <link rel="stylesheet" href="./styles/general.css" />
+
     <title>Portfolio Website</title>
   </head>
 
@@ -20,10 +22,10 @@
     <header class="header">
       <nav>
         <ul>
-          <li><a class="nav__link" href="#">Home</a></li>
-          <li><a class="nav__link" href="#">About</a></li>
-          <li><a class="nav__link" href="#">Tech Stack</a></li>
-          <li><a class="nav__link" href="#">Projects</a></li>
+          <li><a class="nav__link remove-text-decoration" href="#">Home</a></li>
+          <li><a class="nav__link remove-text-decoration" href="#">About</a></li>
+          <li><a class="nav__link remove-text-decoration" href="#">Tech Stack</a></li>
+          <li><a class="nav__link remove-text-decoration" href="#">Projects</a></li>
           <li>
             <a class="logo nav__link" href="https://github.com/OthmanGh" target="_blank"><img class="logo" src="./assets/icons/githubLogo.svg" /></a>
           </li>
@@ -37,17 +39,24 @@
     </header>
 
     <main>
-      <section class="hero-section">
-        <div class="hero-content">
-          <h1>Hi 👋, My name is <span>Pavan MG</span> I'm a Full Stack Web Developer</h1>
-          <div>
-            <button>Learn More !!</button>
-            <button>Contact Me</button>
-          </div>
-        </div>
+      <section class="hero-section sections-padding">
+        <div>
+          <div class="hero-content inline-block">
+            <h1 class="inline-block">
+              Hi 👋,<br />
+              My name is<br />
+              <span>Othmna Ghandour</span><br />A Software Engineer
+            </h1>
+            <div class="inline-block hero-btns">
+              <a href="#" class="contact__btn remove-text-decoration">Contact Me</a>
 
-        <div class="hero-image-container">
-          <img src="./assets/imgs/hero-img.jpg" alt="hero-image" />
+              <a href="#" class="learn__btn remove-text-decoration">Learn More...</a>
+            </div>
+          </div>
+
+          <div class="hero-image-container inline-block">
+            <img src="./assets/imgs/hero-img.jpg" alt="hero-image" />
+          </div>
         </div>
       </section>
 

@@ -20,16 +20,16 @@
   list-style: none;
   display: inline-block;
   margin-right: 30px;
+  font-weight: bold;
 }
 
 .nav__link:link,
 .nav__link:visited {
-  text-decoration: none;
-  color: #111;
+  color: #3b2b2b;
   transition: all 0.3s ease-in-out;
 }
 
 .nav__link:hover,
 .nav__link:active {
-  color: #583b3b;
+  color: #111;
 }

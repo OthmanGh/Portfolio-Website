@@ -1,0 +1,11 @@
+.inline-block {
+  display: inline-block;
+}
+
+.remove-text-decoration {
+  text-decoration: none;
+}
+
+.sections-padding {
+  padding: 200px 0;
+}
