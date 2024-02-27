@@ -1,0 +1,76 @@
+.hero-section {
+  background-color: #3b2b2b;
+}
+
+.hero-section div {
+  margin: 0 auto;
+  max-width: 900px;
+  color: #fff;
+}
+
+.hero-content {
+  width: 400px;
+  display: inline-block;
+  text-align: start;
+  vertical-align: top;
+}
+
+.hero-content h1 {
+  font-size: 2.4rem;
+  line-height: 1.2;
+  margin-bottom: 60px;
+}
+
+.hero-content h1 span {
+  font-weight: bold;
+  color: rgb(255, 174, 0);
+}
+
+.hero-image-container {
+  width: 400px;
+  display: inline-block;
+  text-align: end;
+}
+
+.hero-image-container img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 8px solid rgb(255, 174, 0);
+  object-fit: cover;
+}
+
+.hero-btns a {
+  transition: all 0.3s ease-in-out;
+  padding: 10px 15px;
+  font-size: 1.4rem;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.contact__btn:link,
+.contact__btn:visited {
+  background-color: rgb(223, 154, 4);
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.contact__btn:hover,
+.contact__btn:active {
+  background-color: rgba(255, 174, 0, 0.658);
+}
+
+.learn__btn:link,
+.learn__btn:visited {
+  background-color: #fff;
+  border-radius: 5px;
+  color: #3b2b2b;
+}
+
+.learn__btn:active,
+.learn__btn:hover {
+  color: #fff;
+  background-color: transparent;
+}

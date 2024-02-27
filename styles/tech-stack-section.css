@@ -1,0 +1,28 @@
+.tech-stack-section {
+  background-color: #3b2b2b;
+  color: #fff;
+  text-align: center;
+}
+
+.technologies-worked-with {
+  padding: 20px 30px;
+  font-size: 1.2rem;
+  color: #000000;
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 50px auto;
+}
+
+td {
+  padding: 15px;
+  margin: 20px;
+  border: none;
+  display: inline-block;
+}
+
+.web-technology {
+  width: 80px;
+}
