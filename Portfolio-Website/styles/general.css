@@ -6,7 +6,9 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: whitesmoke;
   margin: 0 auto;
+  font-size: 1.6rem;
 }
 
 img {
@@ -14,7 +16,9 @@ img {
 }
 
 .logo {
-  width: 20px;
+  width: 33px;
+  height: 33px;
+  vertical-align: middle;
 }
 
 table {
