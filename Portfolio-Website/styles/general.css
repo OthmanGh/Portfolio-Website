@@ -15,6 +15,10 @@ img {
   width: 200px;
 }
 
+li {
+  list-style: none;
+}
+
 .logo {
   width: 33px;
   height: 33px;
